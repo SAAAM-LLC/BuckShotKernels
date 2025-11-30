@@ -1,31 +1,5 @@
 ## BUCKSHOT KERNELS SAAAM LLC | Michael Wofford
-🔍 CUDA Toolkit: Found at /usr
-💪 CPU Cores Detected: 12
-🏆 SAAAM LLC - BuckshotKernels - Multi-Core Edition
-======================================================================
-🎯 Peak Target: 2+ TFLOPS on consumer GPU
-💪 Multi-core CPU: ALL CORES ENGAGED
-💥 Built for SAM - No tokenizers, pure neural plasticity
-🔥 'When NumPy is too slow and PyTorch is too bloated'
-
-
-🧪 FULL-SCALE MULTI-CORE BENCHMARK
-======================================================================
-🚀 Enhanced Kernel Manager initializing...
-🔧 Enhanced CPU compiler: gcc
-   SIMD: SSE2, AVX, AVX2
-   OpenMP Threads: 12
-✅ Using cached CPU kernel: ternary_cpu_b1fcd5a1201cced9_omp12.so
-✅ CPU kernels ready with 12 OpenMP threads!
-🔧 Enhanced CUDA compiler initialized
-   Target arch: sm_61
-   Optimization: -O3
-✅ Using cached kernel: ternary_kernels_9723e77c0c57cfcc.so
-✅ CUDA kernels ready!
-
-Size         CPU Time        CPU GFLOPS      CUDA Time       CUDA GFLOPS     Speedup   
-====================================================================================================
-
+```
 🎯 Benchmarking 256x256 matrices...
 🖥️  CPU kernel (12 threads): 256x256 @ 256x256 in 28.53ms (1.18 GFLOPS)
 🚀 CUDA kernel: 256x256 @ 256x256 in 2738.42ms (0.01 GFLOPS)
@@ -125,3 +99,4 @@ Size         CPU Time        CPU GFLOPS      CUDA Time       CUDA GFLOPS     Spe
 ✅ PRODUCTION-READY KERNELS LOCKED AND LOADED!
 📁 Kernel cache: /home/michael/.saaam_kernel_cache
 🔥 LET'S FUCKING DOMINATE! 🔥
+```
